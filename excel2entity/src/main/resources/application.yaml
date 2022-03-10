@@ -1,0 +1,14 @@
+server:
+  port: 9191
+
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    username: root
+    password: 1234567
+    url: jdbc:mysql://localhost:3306/test?useUnicode=true
+
+mybatis:
+  mapper-locations: classpath:mapper/*
+  configuration:
+    map-underscore-to-camel-case: true
