@@ -4,6 +4,7 @@
     <option name="originalFiles">
       <list>
         <option value="$PROJECT_DIR$/excel2entity/pom.xml" />
+        <option value="$PROJECT_DIR$/export-excel/pom.xml" />
       </list>
     </option>
   </component>
