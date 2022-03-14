@@ -5,6 +5,7 @@
       <list>
         <option value="$PROJECT_DIR$/excel2entity/pom.xml" />
         <option value="$PROJECT_DIR$/export-excel/pom.xml" />
+        <option value="$PROJECT_DIR$/dynamic-datasource/pom.xml" />
       </list>
     </option>
   </component>

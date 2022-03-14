@@ -8,16 +8,19 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="excel2entity" />
+        <module name="dynamic-datasource" />
         <module name="export-excel" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="dynamic-datasource" target="11" />
       <module name="excel2entity" target="11" />
       <module name="export-excel" target="11" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="dynamic-datasource" options="-parameters" />
       <module name="excel2entity" options="-parameters" />
       <module name="export-excel" options="-parameters" />
     </option>
