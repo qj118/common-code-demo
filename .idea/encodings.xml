@@ -4,5 +4,6 @@
     <file url="file://$PROJECT_DIR$/dynamic-datasource/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/excel2entity/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/export-excel/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/pagehelper/src/main/java" charset="UTF-8" />
   </component>
 </project>

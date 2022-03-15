@@ -1,6 +1,7 @@
 package org.demon.datasource.controller;
 
 import io.swagger.annotations.ApiOperation;
+import org.demon.datasource.config.dds.DataSource;
 import org.demon.datasource.entity.Book;
 import org.demon.datasource.service.BookService;
 import org.demon.datasource.utils.CommonResult;
@@ -22,7 +23,7 @@ public class BookController {
 
     @ApiOperation("获取图书列表")
     @GetMapping("/books")
-    //@DataSource("slave")
+    @DataSource("slave")
     public CommonResult getBookList(){
         List<Book> bookList = bookService.getBookList();
         return new CommonResult(bookList);

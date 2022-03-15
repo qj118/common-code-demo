@@ -10,3 +10,6 @@ spring:
       username: root
       password: 1234567
       jdbc-url: jdbc:mysql://localhost:3306/test?useUnicode=true
+
+server:
+  port: 8090
